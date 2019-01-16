@@ -1,0 +1,6 @@
+
+-player enter/exit animation
+-background music (retro synthwave)
+-the interactables should flicker or be animated in some other way when interacted with
+-light a cigarette action
+

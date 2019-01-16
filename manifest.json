@@ -1,0 +1,11 @@
+{
+  "short_name": "melonJS Boilerplate",
+  "name": "My melonJS Boilerplate Game",
+  "orientation": "landscape",
+  "developer": {
+    "name": "melonjs",
+    "url": "http://www.melonjs.org"
+  },
+  "start_url": "./index.html",
+  "display": "fullscreen"
+}

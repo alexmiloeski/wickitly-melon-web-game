@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>WICKITLY GAME TEST</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="index.css">
+        <meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="manifest" href="manifest.json">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<style>
+			div#testdiv{
+			  height:240px;width:240px;
+			  background:gray;
+			  float:right;
+			}
+			div#screen{
+				height:640px;width:480px;
+				float:left;
+			}
+		</style>
+    </head>
+    <body>
+        <!-- Canvas placeholder -->
+        <div>
+			<div id="screen"></div>
+			<div id="testdiv">
+			</div>
+		</div>
+		
+        <!-- es5/es6 shim for legacy browsers" -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.11/es5-shim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.11/es5-sham.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.3/es6-shim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.35.3/es6-sham.min.js"></script>
+		
+        <!-- melonJS Library -->
+        <!-- build:js js/app.min.js -->
+        <script type="text/javascript" src="lib/melonjs.js"></script>
+		
+        <!-- Plugin(s) -->
+        <script type="text/javascript" src="lib/plugins/debug/debugPanel.js"></script>
+		
+        <!-- Game Scripts -->
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="js/resources.js"></script>
+		
+        <script type="text/javascript" src="js/screens/play.js"></script>
+		
+		<script type="text/javascript" src="js/entities/entities.js"></script>
+		
+        <!-- /build -->
+		
+        <!-- Bootstrap -->
+        <script type="text/javascript">
+            me.device.onReady(function onReady() {
+                game.onload();
+            });
+        </script>
+    </body>
+</html>

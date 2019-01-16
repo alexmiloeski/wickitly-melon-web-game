@@ -1,0 +1,13 @@
+First screen: player is outside (the pretty picture we have now with the Wickitly offices and girl smoking outside). They can move left and right along the street, and when they're near the entrance, a "press F to enter" (or equivalent for touch screens) shows up. On pressing F, the door opens, player enter animation plays, and level changes to Inside1.
+
+Inside1: player can walk around the office (left and right), they can exit (by pressing F when they're near the entrance), they can go upstairs (by pressing F when near the stairs/elevator or touchscreen equivalent), and hopefully they can press F/click on posters or computer screens or something, that would open images and videos (--preferrably embedded--> NOPE, they'll have to be on the side, outside the game screen).
+
+
+
+
+======= things to consider
+-can you embed images and videos? -not really, no
+
+-retro synthwave music
+
+-light a cigarette action? only outside; inside gets a warning; only one cig every few minutes, with some health warning or sth
