@@ -1,5 +1,6 @@
-[Bb]uild/
-[Nn]ode_modules/
-[Tt]asks/
+build/
+node_modules/
+tasks/
+#lib/
 
 Gruntfile.js

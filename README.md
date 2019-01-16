@@ -1,21 +1,11 @@
-melonJS boilerplate
+Wickitly web game
 -------------------------------------------------------------------------------
-
-features :
-- video autoscaling
-- mobile optimized HTML/CSS
-- swiping disabled on iOS devices
-- debug Panel (if #debug)
-- default icons
-- distribution build
-- standalone build for desktop operating systems
-- optional ES5 shim for non ES5 compliant browser (see index.html)
 
 ## To run distribution
 
 To build, be sure you have [node](http://nodejs.org) installed. Clone the project:
 
-    git clone https://github.com/melonjs/boilerplate.git
+    git clone https://github.com/DigitalThieves/wickitly-web-game
 
 Then in the cloned directory, simply run:
 
@@ -29,7 +19,7 @@ Running the game:
 
 	grunt serve
 
-And you will have the boilerplate example running on http://localhost:8000
+And you will have the game running on http://localhost:8000
 
 ## Building Release Versions
 
