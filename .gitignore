@@ -1,6 +1,4 @@
-build/
+bin
+build
+.DS_Store
 node_modules/
-tasks/
-#lib/
-
-Gruntfile.js
